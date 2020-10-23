@@ -1,0 +1,120 @@
+.listingdetail {
+    padding-bottom: 4rem;
+
+    &__header {
+        background-color: rgba($color-primary, 0.45);
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 4.2rem;
+        color: $color-white;
+        margin-bottom: 2rem;
+        font-weight: 200;
+    }
+
+    &__location {
+        font-size: 2.4rem;
+        color: $color-white;
+        font-weight: 200;
+    }
+
+    &__breadcrumb {
+        background-color: $color-grey-light;
+        padding: 2rem 4rem;
+        font-size: 1.6rem;
+        margin-top: 2rem;
+
+        &__link {
+            color: $color-primary;
+            text-decoration: none;
+
+            &:hover {
+                color: $color-tertiary;
+            }
+        }
+    }
+
+    &__display {
+        width: 100%;
+       
+
+
+        &__image {
+            width: 100%;
+           
+        }
+    }
+
+    &__realtor {
+        font-size: 2.4rem;
+        color: $color-primary;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+     
+
+
+        a{
+            color: white;
+            text-decoration: none;
+              padding: 7px 20px;
+            //   text-transform: capitalize;
+              font-weight: 500;
+              font-size: 2rem;
+    
+            &:hover{
+              color: #FF718E;
+            }
+            &.register-btn{
+              background:rgb(225, 31, 63);
+              padding: 7px 25px;
+              text-align: center;
+              color: white;
+              border-radius: 5px;
+            }
+        }
+
+
+
+
+    }
+
+    &__contact {
+        font-size: 1.6rem;
+        color: $color-tertiary;
+    }
+
+    &__about {
+        font-size: 1.6rem;
+        margin-top: 1rem;
+    }
+
+    &__list {
+        list-style: none;
+        font-size: 1.6rem;
+        color: $color-tertiary;
+
+        &__item {
+            margin-bottom: 1rem;
+            margin-left: 3rem;
+        }
+    }
+
+    &__description {
+        font-size: 1.6rem;
+        margin-left: 3rem;
+    }
+
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: 88px;
+    }
+
+
+
+}

@@ -1,0 +1,165 @@
+.navbar {
+    width: 100%;
+    padding: 0rem 0rem;
+    
+   
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 9rem;
+        background-color:$color-secondary;
+        
+        
+        
+
+        &__logo {
+
+            img{
+                width: 100px;
+                // margin-bottom: -16px;
+                margin-top: -2px;
+                margin-left: 10px;
+                height: 9rem;
+                
+                
+                
+                
+            }
+            margin-left: 4rem;
+
+            &__link {
+                font-size: 1.15rem;
+                color: $color-white;
+                text-decoration: none;
+                border: 1px solid rgb(255, 255, 255);
+                margin-left: 70px;
+                
+               
+                
+            }
+        }
+
+        &__auth {
+            margin-right: 10rem;
+
+            &__link {
+                font-size: 1.5rem;
+                color: $color-white;
+                text-decoration: none;
+                // border: 1px solid rgb(255, 255, 255);
+                // border-style: dotted ;
+                
+
+                &:first-of-type {
+                    margin-right: 8rem;
+                }
+
+                &:hover {
+                    color: rgb(194, 9, 9);
+                    
+                    
+                }
+
+
+
+            }
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+              padding: 7px 20px;
+              text-transform: capitalize;
+              font-weight: 500;
+              font-size: 1.5rem;
+  
+            &:hover{
+              color: #FF718E;
+            }
+            &.register-btn{
+              background:rgb(223, 15, 15);
+              padding: 7px 25px;
+              text-align: center;
+              color: white;
+              border-radius: 5px;
+
+
+              &:hover{
+                background: #FF718E;
+              }
+
+            }
+        }
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 9rem;
+        background-color:$color-primary;
+        opacity: 100%;
+        
+       
+            
+        
+        a{
+            color: white;
+            text-decoration: none;
+              padding: 7px 20px;
+              text-transform: capitalize;
+              font-weight: 300;
+              font-size: 1.2rem;
+  
+            &:hover{
+              color: #FF718E;
+            }
+            &.register-btn{
+              background:rgb(225, 31, 63);
+              padding: 7px 25px;
+              text-align: center;
+              color: white;
+              border-radius: 5px;
+            }
+        }   
+           
+            
+            
+            
+  
+
+                
+                
+                
+                
+               
+               
+                // border: 1px solid rgb(231, 236, 240);
+                // border-style: dotted ;
+                // background-color: #0099FF;
+                
+          
+                  
+                
+
+                &:hover {
+                    color:rgb(194, 9, 9);
+                    
+                }
+            
+        
+
+        
+    }
+
+   
+
+
+}
+
+
+
+    

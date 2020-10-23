@@ -1,0 +1,38 @@
+.listings {
+    &__form {
+        margin-top: 4rem;
+       
+    }
+
+    &__listings {
+        margin-top: 6rem;
+        margin-bottom: 4rem;
+       
+       
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: 0px; 
+            margin-left: 95px;
+        }
+      
+    
+    
+    }
+
+    &__pagination {
+        margin-bottom: 6rem;
+        margin-left: 109px;
+    }
+
+
+    .mb-5, .my-5 {
+        margin-bottom: 3rem !important;
+        margin-left: 90px;
+        // width: 3000px;
+      
+       
+    }
+
+
+}

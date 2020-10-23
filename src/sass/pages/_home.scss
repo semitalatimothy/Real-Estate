@@ -1,0 +1,262 @@
+.about {
+    &__header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8rem 0;
+        height: 240px;
+        position: relative;
+      
+        
+        
+
+        &::after{
+            content: "";
+            position: absolute;
+            z-index: -1;
+            background-image: linear-gradient(135deg, rgba(69,72,77,.5) 0%, rgba(0,0,0,.5) 100%), url("https://img1.wsimg.com/isteam/stock/Y8zdjzq/:/fm=f:Y8zdjzq");
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+           
+            
+           
+           
+        }
+
+        
+        
+        
+      
+
+    }
+
+
+    &__carousel {
+        position: static;
+
+
+
+
+
+
+    .carousel-inner {
+         position: relative;
+         width: 100%;
+         height: 600px;
+         overflow: hidden;
+        
+    }
+    
+
+
+
+    }
+    
+
+    &__info {
+        margin-top: 4rem;
+    }
+
+    &__team {
+        margin-top: 4rem;
+        margin-bottom: 6rem;
+    }
+
+    &__heading {
+        font-size: 6rem;
+        color: $color-white;
+        font-weight: 600;
+        align-content: center;
+        
+    }
+
+    &__subheading {
+        font-size: 3.2rem;
+        color: $color-primary;
+        font-weight: 700;
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        margin-top: 5rem;
+        font: sans-serif;
+        
+    }
+
+    &__paragraph {
+        font-size: 1.6rem;
+        color: $color-paragraph;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    &__display {
+        width: 100%;
+        
+        &__image {
+            width: 90%;
+            height: 700px;
+            
+        }
+    }
+
+    &__realtor {
+        font-size: 1.8rem;
+        font-weight: 200;
+        color: $color-primary;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    &__topseller {
+        font-size: 2.4rem;
+        color: $color-paragraph;
+        font-weight: 200;
+        margin-top: 2rem;
+    }
+
+    &__contact {
+        font-size: 1.6rem;
+        color: $color-tertiary;
+        margin-bottom: 0.5rem;
+    }
+
+    &__about {
+        font-size: 1.6rem;
+        color: $color-paragraph;
+        margin-top: 1rem;
+    }
+
+    &__listings {
+        margin-top: 80rem;
+        margin-bottom: 4rem;
+        width: 2000px;
+       height: 2px;
+       
+       
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: 67px; 
+            margin-left: 95px;
+        }
+      
+    
+    
+    }
+
+    &__pagination {
+        margin-top: 80rem;
+        margin-bottom: 6rem;
+        margin-left: 6px;
+        
+       
+        width: 20px;
+       height: 20px;
+    }
+
+
+    
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+
+
+  }
+
+
+
+
+
+.home-container {
+  
+
+
+    h1{
+    color:white;
+    font-size:50px;
+    font-weight: bold;
+    margin-left:17%;
+    // margin-left:36.5%;
+    padding-top:4%;
+    }
+
+    h4{
+      color:white;
+      font-size:30px;
+      // margin-left:35%;
+      margin-left: 15%;
+      padding-top:0%;
+    }
+
+    .searchcontainer{
+      display: block;
+      margin:auto;
+      background-color:#1a1b1a87;
+      margin-top:40px;
+      padding-top: 30px;
+      padding-bottom:50px;
+      text-align: center;
+      border-radius: 10px;
+      margin-left: 20%;
+      margin-right: 20%;
+
+    .searchbar {
+      display: block;
+      color:white;
+      font-size: 1.25em;
+
+      .locationsearch {
+        width:750px;
+
+      }
+    }
+
+      .searchbar2 {
+        display: block;
+        color:white;
+        font-size: 1.25em;
+      }
+
+      input {
+        width: 200px;
+        margin-top:40px;
+        margin-left: 10px;
+        margin-right: 20px;
+      }
+    }
+
+    a{
+        color: white;
+        text-decoration: none;
+          padding: 7px 20px;
+          text-transform: capitalize;
+          font-weight: 500;
+          font-size: 1.5rem;
+
+        &:hover{
+          color: #FF718E;
+        }
+        &.register-btn{
+          background:rgb(63, 8, 191);
+          padding: 7px 25px;
+          text-align: center;
+          color: white;
+          border-radius: 5px;
+        }
+    }
+}
+ 
+
+
+
+
+
+
+
+   
